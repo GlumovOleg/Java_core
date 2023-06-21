@@ -1,4 +1,4 @@
-package src.ru.gb.regular;
+package hw1.src.ru.gb.regular;
 
 /**
  * Декоратор.

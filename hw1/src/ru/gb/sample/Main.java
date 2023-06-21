@@ -1,4 +1,4 @@
-package src.ru.gb.sample;
+package hw1.src.ru.gb.sample;
 
 import src.ru.gb.regular.Decoration;
 import src.ru.gb.regular.OtherClass;
