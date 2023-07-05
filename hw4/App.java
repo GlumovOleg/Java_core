@@ -1,11 +1,13 @@
 package hw4;
 
-
+import java.util.Random;
 
 public class App {
 
     static Customer[] customers = null;
     static Product[] products = null;
+    static Float sales_max = 15.0f;
+    static Random random = new Random();
 
     public static void main(String[] args) {
 
@@ -45,7 +47,7 @@ public class App {
                 System.out.println(e.getMessage());
             }
         }
-        System.out.println("Количество совершенных покупок: " + count);
+        System.out.println("Количество совершенных покупок: " + count + "на сумму: ");
     }
 
     public static Order makePurchase(String phone, String title, int amout)
