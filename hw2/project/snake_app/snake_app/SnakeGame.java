@@ -1,4 +1,4 @@
-package snake_app;
+package hw2.project.snake_app.snake_app;
 
 import java.awt.Color;
 import java.awt.Dimension;
